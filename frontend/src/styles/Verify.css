@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+.certificate-header {
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+/* .cert-subheadings {
+    font-weight: 600;
+    font-size: 1rem;
+} */
+
+.cert-info {
+    font-weight: 400;
+    color: black;
+    font-size: 1rem;
+}

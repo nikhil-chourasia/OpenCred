@@ -1,4 +1,5 @@
-import "react"
+import React from "react"
+import { Link } from "react-router-dom"
 import certificateImage from "../assets/undraw_certification_i2m0.svg"
 import shield from "../assets/shield.svg"
 import zap from "../assets/zap.svg"
@@ -32,8 +33,8 @@ function Home() {
                             </p>
                         </div>
                         <div className="buttons flex gap-4 mt-4">
-                            <button className="verify-btn bg-gradient-to-r from-sky-500 to-sky-600 px-4 py-2 rounded text-white cursor-pointer" link="/verify">
-                                Verify Certificate
+                            <button className="verify-btn bg-gradient-to-r from-sky-500 to-sky-600 px-4 py-2 rounded text-white cursor-pointer">
+                                <Link to="/verify">Verify Certificate </Link>
                             </button>
                             <button className="issue-btn bg-white text-black px-4 py-2 rounded cursor-pointer">
                                 Issue Certificates
@@ -62,6 +63,9 @@ function Home() {
                     <FeatureCard icon={usersRound} feature="Multi-Party Trust" description="Institutions, employers, and individuals can all trust the same verification system."/>
                     <FeatureCard icon={award} feature="Compliance Ready" description="Meet regulatory requirements with auditable, traceable certification processes."/>
                 </div>
+            </div>
+            <div className="section-3 h-[95vh] ">
+
             </div>
             <div className="footer h-[5vh] w-full bg-gradient-to-br from-blue-500 to-blue-900 flex items-center justify-center text-white">
                 <p className="font-normal text-lg">Made with ❤️ and ☕ in India</p>
