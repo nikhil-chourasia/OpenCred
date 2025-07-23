@@ -19,8 +19,8 @@ function Verify() {
                     Verify
                 </button>
             </div>
-            <div className="certificate h-[520px] w-[60%] mt-12 bg-white rounded-lg shadow-2xl flex flex-col items-center justify-between p-24 hidden">
-                    <p className="certificate-header text-black text-5xl">Certificate of Appreciation</p>
+            <div className="certificate w-[60%] mt-12 bg-white rounded-lg shadow-2xl flex-col flex-wrap items-center justify-between p-24 hidden">
+                    <p className="certificate-header text-black text-5xl py-5 text-center">Certificate of Appreciation</p>
                 <div className="cert-info grid grid-cols-2 grid-rows-6 gap-2 w-[40%]">
                     <p className="cert-subheadings bg-gradient-to-b from-sky-400 to-sky-600 bg-clip-text text-transparent font-bold text-lg">Awarded to: </p>
                     <p className="cert-info">Binood</p>
